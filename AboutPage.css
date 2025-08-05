@@ -1,0 +1,60 @@
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+  padding: 0 1.5rem;
+}
+
+.about-container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 100;
+  color: white;
+  margin-bottom: 2rem;
+  opacity: 0;
+}
+
+.about-content {
+  opacity: 0;
+}
+
+.about-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.skills-section {
+  margin-top: 3rem;
+  opacity: 0;
+}
+
+.skills-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  backdrop-filter: blur(4px);
+}
